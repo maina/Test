@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>নতুন খানা নিবন্ধন ফর্ম</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="Bengali">
+          <text id="/FWNewHH/woman/eligible/FWWOMRETYPENID:label">
+            <value>মহিলার জাতীয় পরিচয়পত্র নম্বরটি পুনরায় লিখুন</value>
+          </text>
+          <text id="/FWNewHH/woman/FWBIRTHDATE:hint">
+            <value>“যদি জন্মনিবন্ধন সনদপত্র থাকে তাহলে জন্মতারিখ সেখান থেকেই সংগ্রহ করুন। যদি জন্মতারিখ বলতে না পারে তাহলে মাসের ১৫ তারিখকে জন্মতারিখ হিসেবে বেছে নিন। যদি জন্মমাস বলতে না পারে তাহলে ৬ বা জুনকে মাস হিসেবে বেছে নিন এবং মহিলা যে বছরটিতে তার জন্ম বলবে সেটি এন্ট্রি করুন।”</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSALV:label">
+            <value>আপনার স্বামী কি জীবিত আছেন?</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTER/1:label">
+            <value>হ্যাঁ</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMBID:label">
+            <value>মহিলার জন্ম নিবন্ধন সনদপত্র নম্বরটি লিখুন</value>
+          </text>
+          <text id="/FWNewHH/woman/FWWOMFNAME:jr:constraintMsg">
+            <value>অনুগ্রহ করে A-Z অক্ষরগুলো দিয়ে নাম টাইপ করুন</value>
+          </text>
+          <text id="/FWNewHH/FWNHREGDATE:jr:constraintMsg">
+            <value>আজকের তারিখের পরের কোন তারিখ
+হতে পারবে না</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTER/9:label">
+            <value>জানি না</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMWRA/0:label">
+            <value>না</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSLIV/0:label">
+            <value>না</value>
+          </text>
+          <text id="/FWNewHH/woman/FWBIRTHDATE:jr:constraintMsg">
+            <value>মহিলার বয়স অবশ্যই ১২ বছরের বেশী হবে</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSALV/1:label">
+            <value>হ্যাঁ</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMNID:label">
+            <value>মহিলার জাতীয় পরিচয়পত্র নম্বরটি লিখুন</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWHUSNAME:jr:constraintMsg">
+            <value>অনুগ্রহ করে A-Z অক্ষরগুলো দিয়ে নাম টাইপ করুন</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMRETYPENID:hint">
+            <value>জাতীয় পরিচয়পত্রের নম্বরটি পুনরায় প্রবেশ করান</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMRETYPEBID:jr:constraintMsg">
+            <value>এই নম্বরটি ও পূর্বের স্ক্রিনে দেওয়া জন্ম নিবন্ধন নম্বরটি একই হতে হবে</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMWRA/1:label">
+            <value>হ্যাঁ</value>
+          </text>
+          <text id="/FWNewHH/FWJIVHHID:label">
+            <value>JiVitA HHID</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMANYID/2:label">
+            <value>জন্ম নিবন্ধন সনদপত্র নম্বর</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMANYID/1:label">
+            <value>জাতীয় পরিচয়পত্র নম্বর</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSLIV/1:label">
+            <value>হ্যাঁ</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMRETYPEBID:label">
+            <value>মহিলার জন্ম নিবন্ধন সনদপত্র নম্বরটি পুনরায় লিখুন</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMANYID:hint">
+            <value>প্রযোজ্য সবগুলো উত্তর নির্বাচন করুন</value>
+          </text>
+          <text id="/FWNewHH/FWHOHFNAME:jr:constraintMsg">
+            <value>অনুগ্রহ করে A-Z অক্ষরগুলো দিয়ে নাম টাইপ করুন</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMWRA:label">
+            <value>এই খানায় কি ১৩ থেকে ৪৯ বছর বয়সের কোন বিবাহিত মহিলা আছেন?</value>
+          </text>
+          <text id="/FWNewHH/woman/FWWOMFNAME:hint">
+            <value>মহিলার নাম টাইপ করুন</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSSTR/9:label">
+            <value>জানি না</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSLIV:label">
+            <value>আপনি কি বর্তমানে আপনার স্বামীর সাথে বসবাস করছেন?</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMRETYPENID:jr:constraintMsg">
+            <value>এই নম্বরটি ও পূর্বের স্ক্রিনে দেওয়া জন্ম নিবন্ধন নম্বরটি একই হতে হবে</value>
+          </text>
+          <text id="/FWNewHH/changes:label">
+            <value>-</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTRMEN/1:label">
+            <value>হ্যাঁ</value>
+          </text>
+          <text id="/FWNewHH/version:label">
+            <value>-</value>
+          </text>
+          <text id="/FWNewHH/FWJIVHHID:jr:constraintMsg">
+            <value>অনুগ্রহ করে ০০০১ থেকে ৯৯৯৯ এর মধ্যে ৪ ডিজিটের JiVitA HHID টাইপ করুন</value>
+          </text>
+          <text id="/FWNewHH/FWJIVHHID:hint">
+            <value>লাল কালিতে দেয়া জীবিতা খানা নম্বর (HHID) যেভাবে দেয়ালে বা দরজায় দেওয়া আছে সেভাবেই ইনপুট দিন ।
+জীবিতা খানা নম্বর (HHID) পাওয়া না গেলে ৯৯৯৯ ইনপুট দিন</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSLIV/9:label">
+            <value>জানি না</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWHUSNAME:label">
+            <value>স্বামীর নাম-</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSSTR:label">
+            <value>আপনার স্বামী কি স্থায়ী জন্মনিয়ন্ত্রন পদ্ধতি গ্রহণ করেছেন?</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTER:label">
+            <value>আপনি কি স্থায়ী জন্মনিয়ন্ত্রন পদ্ধতি গ্রহণ করেননি?</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMBRNUM:hint">
+            <value>খানার সদস্য সংখ্যা লিখতে 01-29 লিখুন । 30 বা তার বেশী হলে 30 লিখুন। খানার সদস্যের সংখ্যা জানা না থাকলে 99 লিখুন ।</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTRMEN:label">
+            <value>আপনার মাসিক কি চালু আছে?</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSALV/0:label">
+            <value>না</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWHUSNAME:hint">
+            <value>স্বামীর নাম টাইপ করুন</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSSTR/0:label">
+            <value>না</value>
+          </text>
+          <text id="/FWNewHH/woman:hint">
+            <value>আমরা এখন মহিলাকে নিবন্ধন করব। তাকে জাতীয় পরিচয়পত্র এবং জন্ম নিবন্ধন সনদপত্র নিয়ে আসতে অনুরোধ করুন।</value>
+          </text>
+          <text id="/FWNewHH/woman/display_age:label">
+            <value>মহিলার বয়স <output value=" /FWNewHH/woman/FWWOMAGE "/></value></text>
+          <text id="/FWNewHH/FWHOHFNAME:label">
+            <value>খানা প্রধানের নাম-</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTRMEN/0:label">
+            <value>না</value>
+          </text>
+          <text id="/FWNewHH/FWNHREGDATE:hint">
+            <value>আজকের তারিখ দিন</value>
+          </text>
+          <text id="/FWNewHH/woman/add_women:label">
+            <value>নির্দেশনাঃ এই খানায় যদি আরও কোন মহিলা থাকে যাকে রেজিস্ট্রেশন করা হয়নি, তাহলে '+' এ ক্লিক করুন এবং একই প্রক্রিয়ায় পরবর্তী মহিলাকে রেজিস্ট্রেশন করুন</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMBRNUM:jr:constraintMsg">
+            <value>খানার সদস্য সংখ্যাকে দুই ডিজিট হিসেবে এন্ট্রি করতে হবে। খানার সদস্য সংখ্যা লিখতে 01- 29 লিখুন । খানার সদস্যের সংখ্যা 30 বা তার বেশি হলে 30 লিখুন। খানার সদস্যের সংখ্যা জানা না থাকলে 99 লিখুন ।</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSSTR/1:label">
+            <value>হ্যাঁ</value>
+          </text>
+          <text id="/FWNewHH/FWGOBHHID:jr:constraintMsg">
+            <value>অনুগ্রহ করে ০০০১ থেকে ৯৯৯৯ এর মধ্যে ৪ ডিজিটের GoB HHID টাইপ করুন</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMBRNUM:label">
+            <value>এই খানায় বর্তমানে কতজন মানুষ বসবাস করছে?</value>
+          </text>
+          <text id="/FWNewHH/woman/FWWOMFNAME:label">
+            <value>মহিলার নাম-</value>
+          </text>
+          <text id="/FWNewHH/form_name:label">
+            <value>ফর্মের নাম</value>
+          </text>
+          <text id="/FWNewHH/FWNHHHGPS:label">
+            <value>জি পি এস</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTRMEN/9:label">
+            <value>জানি না</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMRETYPEBID:hint">
+            <value>জন্ম নিবন্ধন নম্বরটি পূনরায় প্রবেশ করান</value>
+          </text>
+          <text id="/FWNewHH/woman/FWBIRTHDATE:label">
+            <value>মহিলার জন্ম তারিখ</value>
+          </text>
+          <text id="/FWNewHH/woman:label">
+            <value>মহিলার তথ্যঃ</value>
+          </text>
+          <text id="/FWNewHH/FWHOHGENDER/2:label">
+            <value>মহিলা</value>
+          </text>
+          <text id="/FWNewHH/FWNHREGDATE:label">
+            <value>সাক্ষাৎকারের তারিখ</value>
+          </text>
+          <text id="/FWNewHH/FWGOBHHID:label">
+            <value>GoB HHID</value>
+          </text>
+          <text id="/FWNewHH/FWHOHGENDER:label">
+            <value>খানা প্রধানের লিঙ্গ</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMNID:hint">
+            <value>জাতীয় পরিচয়পত্রে দেওয়া সরকারী নম্বর যেভাবে দেওয়া আছে সেভাবেই প্রবেশ করান</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTER/0:label">
+            <value>না</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMBID:jr:constraintMsg">
+            <value>জন্ম নিবন্ধন সনদ নং ১৭ ডিজিটের হবে</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMBID:hint">
+            <value>জন্ম নিবন্ধন সনদপত্রের সরকারী নম্বর যেভাবে দেওয়া আছে সেভাবেই ইনপুট দিন।</value>
+          </text>
+          <text id="/FWNewHH/FWHOHGENDER/1:label">
+            <value>পুরুষ</value>
+          </text>
+          <text id="/FWNewHH/FWGOBHHID:hint">
+            <value>কালো কালিতে লেখা সরকারী খানা নম্বর (HHID) যেভাবে ঘরের দেয়াল বা দরজায় দেওয়া আছে সেভাবেই ইনপুট দিন।
+সরকারী খানা নম্বর (HHID) পাওয়া না গেলে ৯৯৯৯ ইনপুট দিন</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMNID:jr:constraintMsg">
+            <value>জাতীয় পরিচয়পত্র নং ১৩ অথবা ১৭ ডিজিটের হবে</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMWRA/9:label">
+            <value>জানি না</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMANYID:label">
+            <value>নিচের কোন পরিচয় পত্রটি মহিলার কাছে আছে?</value>
+          </text>
+        </translation>
+        <translation lang="English">
+          <text id="/FWNewHH/woman/eligible/FWWOMRETYPENID:label">
+            <value>Re-Type Woman's National ID Number</value>
+          </text>
+          <text id="/FWNewHH/woman/FWBIRTHDATE:hint">
+            <value>If birth certificate is available take date of birth from birth certificate. If date of birth is unknown choose 15 as the date of birth, if month is unknown choose 06 (June) as month of birth and enter the year of birth as mentioned by the woman.</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSALV:label">
+            <value>Is the husband alive?</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTER/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/FWNewHH/version:label">
+            <value>TechVersion: v1.4 Oct 26, 2015
+FormVersion: v1.0</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTRMEN/0:label">
+            <value>No</value>
+          </text>
+          <text id="/FWNewHH/FWNHREGDATE:jr:constraintMsg">
+            <value>Date cannot be greater than current date.</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTER/9:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMWRA/0:label">
+            <value>No</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSLIV/0:label">
+            <value>No</value>
+          </text>
+          <text id="/FWNewHH/woman/FWBIRTHDATE:jr:constraintMsg">
+            <value>Woman must be older than 12 years of age</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSALV/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMNID:label">
+            <value>Woman's National ID Number</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWHUSNAME:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMRETYPENID:hint">
+            <value>Please re-input the National ID number</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMRETYPEBID:jr:constraintMsg">
+            <value>This number and the one in the previous screen should be same</value>
+          </text>
+          <text id="/FWNewHH/woman/FWWOMFNAME:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/FWNewHH/form_name:label">
+            <value>Form Name</value>
+          </text>
+          <text id="/FWNewHH/FWJIVHHID:label">
+            <value>JiVitA HHID</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMANYID/2:label">
+            <value>Birth Registration ID</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMANYID/1:label">
+            <value>National ID</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSLIV/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMRETYPEBID:label">
+            <value>Woman's Birth Registration ID Number</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMANYID:hint">
+            <value>Select all that apply.</value>
+          </text>
+          <text id="/FWNewHH/FWHOHFNAME:jr:constraintMsg">
+            <value>-</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMWRA:label">
+            <value>Are there any married women between the ages of 13 - 49 live in this household?</value>
+          </text>
+          <text id="/FWNewHH/woman/FWWOMFNAME:hint">
+            <value>Please type woman's name</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSSTR/9:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSLIV:label">
+            <value>Are you currently living with your husband?</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMRETYPENID:jr:constraintMsg">
+            <value>This number and the one in the previous screen should be same</value>
+          </text>
+          <text id="/FWNewHH/changes:label">
+            <value>KZ (3/15): Changing the number of women aged 15-45 to 13
+KZ (4/14): Added menopasual / sterilized as an option choice instead of yes no
+KZ (4/14): Update the National ID / Birth ID question and answer choices to be consistent across all FD and FWA forms
+9 May (KZ):
+Split the menopausal and sterilized question into two separate questions, removed the joined menopasual/sterilized answer choice set and updated the relevant and eligible calculations to reflect this new question. Also updated the concept ids for these.</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTRMEN/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/FWNewHH/FWJIVHHID:jr:constraintMsg">
+            <value>Please enter 4 digits of JiVitA HHID from 0001 to 9999</value>
+          </text>
+          <text id="/FWNewHH/FWJIVHHID:hint">
+            <value>Please input the RED – painted JiVitA / Study household ID (HHID) as displayed on the door/wall of the HH. Enter 9999 if JiVitA HHID is not found.</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSLIV/9:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWHUSNAME:label">
+            <value>Husband's Name</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSSTR:label">
+            <value>Is the husband sterilized?</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTER:label">
+            <value>Are you sterlized?</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMBRNUM:hint">
+            <value>Enter 01-29 for the number of household members. Enter 30 if 30 or more. Enter 99 if the total number is unknown.</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTRMEN:label">
+            <value>Are you still menstruating?</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSALV/0:label">
+            <value>No</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWHUSNAME:hint">
+            <value>Please type husband's name</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSSTR/0:label">
+            <value>No</value>
+          </text>
+          <text id="/FWNewHH/woman:hint">
+            <value>We will now register the woman. Please ask her to bring her National ID Card and Birth Certificate.</value>
+          </text>
+          <text id="/FWNewHH/woman/display_age:label">
+            <value>The woman's age is <output value=" /FWNewHH/woman/FWWOMAGE "/>.</value>
+          </text>
+          <text id="/FWNewHH/FWHOHFNAME:label">
+            <value>Head of Household Name</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMANYID:label">
+            <value>Which of the following IDs does the woman have?</value>
+          </text>
+          <text id="/FWNewHH/FWNHREGDATE:hint">
+            <value>Please enter today's date.</value>
+          </text>
+          <text id="/FWNewHH/woman/add_women:label">
+            <value>If there are any additional unregistered women in this household, select the '+' to add them now.</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMBRNUM:jr:constraintMsg">
+            <value>Number should be entered as two digits. Enter 01-29 for the number of household members. Enter 30 if there are 30 or more household members. Enter 99 if the total number is unknown.</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMHUSSTR/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/FWNewHH/FWGOBHHID:jr:constraintMsg">
+            <value>Please enter 4 digits of GoB HHID from 0001 to 9999</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMBRNUM:label">
+            <value>How many people are currently living in this household?</value>
+          </text>
+          <text id="/FWNewHH/woman/FWWOMFNAME:label">
+            <value>Woman Name</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMWRA/1:label">
+            <value>Yes</value>
+          </text>
+          <text id="/FWNewHH/FWNHHHGPS:label">
+            <value>Collect GPS Location of HH</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTRMEN/9:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMRETYPEBID:hint">
+            <value>Please re-input the Birth Registration Number</value>
+          </text>
+          <text id="/FWNewHH/woman/FWBIRTHDATE:label">
+            <value>Woman's Date of Birth</value>
+          </text>
+          <text id="/FWNewHH/woman:label">
+            <value>New Woman Registration</value>
+          </text>
+          <text id="/FWNewHH/FWHOHGENDER/2:label">
+            <value>Female</value>
+          </text>
+          <text id="/FWNewHH/FWNHREGDATE:label">
+            <value>Date of Interview</value>
+          </text>
+          <text id="/FWNewHH/FWGOBHHID:label">
+            <value>GoB HHID</value>
+          </text>
+          <text id="/FWNewHH/FWHOHGENDER:label">
+            <value>Head of Household Gender</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMNID:hint">
+            <value>Please input the Government ID as displayed on the national ID card</value>
+          </text>
+          <text id="/FWNewHH/woman/FWCWOMSTER/0:label">
+            <value>No</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMBID:jr:constraintMsg">
+            <value>Birth Registration ID should be 17 digits</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMBID:hint">
+            <value>Please input the Government ID as displayed on the birth certificate</value>
+          </text>
+          <text id="/FWNewHH/FWHOHGENDER/1:label">
+            <value>Male</value>
+          </text>
+          <text id="/FWNewHH/FWGOBHHID:hint">
+            <value>Please input the Black – painted Government household ID (HHID) as displayed on the door/wall of the HH. If there is no Government HHID, enter 9999.</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMNID:jr:constraintMsg">
+            <value>National ID should be 13 or 17 digits</value>
+          </text>
+          <text id="/FWNewHH/FWNHHMWRA/9:label">
+            <value>Don't know</value>
+          </text>
+          <text id="/FWNewHH/woman/eligible/FWWOMBID:label">
+            <value>Woman's Birth Registration ID Number</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <FWNewHH encounter_type="New Household Registration" id="FWNewHH" version="201605291323">
+          <formhub>
+            <uuid/>
+          </formhub>
+          <version/>
+          <changes/>
+          <existing_location openmrs_entity="encounter" openmrs_entity_id="location_id"/>
+          <existing_Country/>
+          <existing_Division/>
+          <existing_District/>
+          <existing_Upazilla/>
+          <existing_Union/>
+          <existing_Ward/>
+          <existing_Subunit/>
+          <existing_Mauzapara/>
+          <form_name/>
+          <today openmrs_entity="encounter" openmrs_entity_id="encounter_date"/>
+          <start openmrs_entity="concept" openmrs_entity_id="163137AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+          <end openmrs_entity="concept" openmrs_entity_id="163138AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+          <FWNHREGDATE openmrs_entity="concept" openmrs_entity_id="160753AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+          <FWGOBHHID openmrs_entity="person_attribute" openmrs_entity_id="GoB_HHID"/>
+          <FWJIVHHID openmrs_entity="person_attribute" openmrs_entity_id="JiVitA_HHID"/>
+          <FWCOUNTRY openmrs_entity="person_address" openmrs_entity_id="country" openmrs_entity_parent="usual_residence"/>
+          <FWDIVISION openmrs_entity="person_address" openmrs_entity_id="stateProvince" openmrs_entity_parent="usual_residence"/>
+          <FWDISTRICT openmrs_entity="person_address" openmrs_entity_id="countyDistrict" openmrs_entity_parent="usual_residence"/>
+          <FWUPAZILLA openmrs_entity="person_address" openmrs_entity_id="cityVillage" openmrs_entity_parent="usual_residence"/>
+          <FWUNION openmrs_entity="person_address" openmrs_entity_id="address1" openmrs_entity_parent="usual_residence"/>
+          <FWWARD openmrs_entity="person_address" openmrs_entity_id="address2" openmrs_entity_parent="usual_residence"/>
+          <FWSUBUNIT openmrs_entity="person_address" openmrs_entity_id="address3" openmrs_entity_parent="usual_residence"/>
+          <FWMAUZA_PARA openmrs_entity="person_address" openmrs_entity_id="address4" openmrs_entity_parent="usual_residence"/>
+          <FWGOB_HHID openmrs_entity="person_address" openmrs_entity_id="address5" openmrs_entity_parent="usual_residence"/>
+          <FWNHHHGPS openmrs_entity="person_address" openmrs_entity_id="geopoint" openmrs_entity_parent="usual_residence"/>
+          <FWHOHFNAME openmrs_entity="person" openmrs_entity_id="first_name"/>
+          <FWHOHLNAME openmrs_entity="person" openmrs_entity_id="last_name"/>
+          <FWHOHBIRTHDATE openmrs_entity="person" openmrs_entity_id="birthdate"/>
+          <FWHOHGENDER openmrs_entity="person" openmrs_entity_id="gender"/>
+          <FWNHHMBRNUM openmrs_entity="concept" openmrs_entity_id="5611AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+          <FWNHHMWRA/>
+          <woman jr:template="" openmrs_entity="person" openmrs_entity_id="New Woman Registration">
+            <GOBHHID openmrs_entity="person_attribute" openmrs_entity_id="GoB_HHID"/>
+            <JiVitAHHID openmrs_entity="person_attribute" openmrs_entity_id="JiVitA_HHID"/>
+            <REGDATE/>
+            <FWWOMFNAME openmrs_entity="person" openmrs_entity_id="first_name"/>
+            <FWWOMLNAME openmrs_entity="person" openmrs_entity_id="last_name"/>
+            <FWBIRTHDATE openmrs_entity="person" openmrs_entity_id="birthdate"/>
+            <FWGENDER openmrs_entity="person" openmrs_entity_id="gender"/>
+            <FWWOMAGE openmrs_entity="concept" openmrs_entity_id="1532AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+            <display_age/>
+            <FWCWOMSTRMEN openmrs_entity="concept" openmrs_entity_id="160600AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+            <FWCWOMSTER openmrs_entity_id="163006AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+            <FWCWOMHUSLIV openmrs_entity="concept" openmrs_entity_id="162994AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+            <FWCWOMHUSALV openmrs_entity="concept" openmrs_entity_id="5561AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+            <FWCWOMHUSSTR openmrs_entity="concept" openmrs_entity_id="162959AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+            <FWELIGIBLE/>
+            <FWELIGIBLE2 openmrs_entity="concept" openmrs_entity_id="162699AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+            <eligible>
+              <FWWOMANYID openmrs_entity="concept" openmrs_entity_id="163087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+              <FWWOMNID/>
+              <FWWOMRETYPENID openmrs_entity="person_identifier" openmrs_entity_id="NID"/>
+              <FWWOMRETYPENID_CONCEPT openmrs_entity="concept" openmrs_entity_id="163084AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+              <FWWOMBID/>
+              <FWWOMRETYPEBID openmrs_entity="person_identifier" openmrs_entity_id="Birth Registration ID"/>
+              <FWWOMRETYPEBID_CONCEPT openmrs_entity="concept" openmrs_entity_id="163083AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+              <FWHUSNAME openmrs_entity="concept" openmrs_entity_id="161135AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+              <FWWOMCOUNTRY openmrs_entity="person_address" openmrs_entity_id="country" openmrs_entity_parent="usual_residence"/>
+              <FWWOMDIVISION openmrs_entity="person_address" openmrs_entity_id="stateProvince" openmrs_entity_parent="usual_residence"/>
+              <FWWOMDISTRICT openmrs_entity="person_address" openmrs_entity_id="countyDistrict" openmrs_entity_parent="usual_residence"/>
+              <FWWOMUPAZILLA openmrs_entity="person_address" openmrs_entity_id="cityVillage" openmrs_entity_parent="usual_residence"/>
+              <FWWOMUNION openmrs_entity="person_address" openmrs_entity_id="address1" openmrs_entity_parent="usual_residence"/>
+              <FWWOMWARD openmrs_entity="person_address" openmrs_entity_id="address2" openmrs_entity_parent="usual_residence"/>
+              <FWWOMSUBUNIT openmrs_entity="person_address" openmrs_entity_id="address3" openmrs_entity_parent="usual_residence"/>
+              <FWWOMMAUZA_PARA openmrs_entity="person_address" openmrs_entity_id="address4" openmrs_entity_parent="usual_residence"/>
+              <FWWOMGOBHHID openmrs_entity="person_address" openmrs_entity_id="address5" openmrs_entity_parent="usual_residence"/>
+              <FWWOMGPS openmrs_entity="person_address" openmrs_entity_id="geopoint" openmrs_entity_parent="usual_residence"/>
+            </eligible>
+            <add_women/>
+          </woman>
+          <ELCO/>
+          <current_formStatus/>
+          <user_type openmrs_entity="concept" openmrs_entity_id="163229AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+          <external_user_ID openmrs_entity="concept" openmrs_entity_id="163161AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </FWNewHH>
+      </instance>
+      <bind nodeset="/FWNewHH/version" type="string"/>
+      <bind nodeset="/FWNewHH/changes" type="string"/>
+      <bind nodeset="/FWNewHH/existing_location" type="string"/>
+      <bind nodeset="/FWNewHH/existing_Country" type="string"/>
+      <bind nodeset="/FWNewHH/existing_Division" type="string"/>
+      <bind nodeset="/FWNewHH/existing_District" type="string"/>
+      <bind nodeset="/FWNewHH/existing_Upazilla" type="string"/>
+      <bind nodeset="/FWNewHH/existing_Union" type="string"/>
+      <bind nodeset="/FWNewHH/existing_Ward" type="string"/>
+      <bind nodeset="/FWNewHH/existing_Subunit" type="string"/>
+      <bind nodeset="/FWNewHH/existing_Mauzapara" type="string"/>
+      <bind calculate="&quot;FWNewHH&quot;" nodeset="/FWNewHH/form_name" type="string"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/FWNewHH/today" type="date"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/FWNewHH/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/FWNewHH/end" type="dateTime"/>
+      <bind constraint=".&lt;= /FWNewHH/today " jr:constraintMsg="jr:itext('/FWNewHH/FWNHREGDATE:jr:constraintMsg')" nodeset="/FWNewHH/FWNHREGDATE" required="true()" type="date"/>
+      <bind constraint="regex(., '^(?!0{4})[0-9]{4}$')" jr:constraintMsg="jr:itext('/FWNewHH/FWGOBHHID:jr:constraintMsg')" nodeset="/FWNewHH/FWGOBHHID" required="true()" type="string"/>
+      <bind constraint="regex(., '^(?!0{4})[0-9]{4}$')" jr:constraintMsg="jr:itext('/FWNewHH/FWJIVHHID:jr:constraintMsg')" nodeset="/FWNewHH/FWJIVHHID" required="true()" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Country " nodeset="/FWNewHH/FWCOUNTRY" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Division " nodeset="/FWNewHH/FWDIVISION" type="string"/>
+      <bind calculate=" /FWNewHH/existing_District " nodeset="/FWNewHH/FWDISTRICT" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Upazilla " nodeset="/FWNewHH/FWUPAZILLA" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Union " nodeset="/FWNewHH/FWUNION" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Ward " nodeset="/FWNewHH/FWWARD" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Subunit " nodeset="/FWNewHH/FWSUBUNIT" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Mauzapara " nodeset="/FWNewHH/FWMAUZA_PARA" type="string"/>
+      <bind calculate=" /FWNewHH/FWGOBHHID " nodeset="/FWNewHH/FWGOB_HHID" type="string"/>
+      <bind nodeset="/FWNewHH/FWNHHHGPS" type="geopoint"/>
+      <bind constraint="regex(., '^[a-z A-Z]+$' )" jr:constraintMsg="jr:itext('/FWNewHH/FWHOHFNAME:jr:constraintMsg')" nodeset="/FWNewHH/FWHOHFNAME" required="true()" type="string"/>
+      <bind calculate="&quot;.&quot;" nodeset="/FWNewHH/FWHOHLNAME" type="string"/>
+      <bind calculate="&quot;1900-01-01&quot;" nodeset="/FWNewHH/FWHOHBIRTHDATE" type="string"/>
+      <bind nodeset="/FWNewHH/FWHOHGENDER" required="true()" type="select1"/>
+      <bind constraint="(regex(., '^(?!0{2})[0-9]{2}$') and .&lt;31) or .=99" jr:constraintMsg="jr:itext('/FWNewHH/FWNHHMBRNUM:jr:constraintMsg')" nodeset="/FWNewHH/FWNHHMBRNUM" required="true()" type="string"/>
+      <bind nodeset="/FWNewHH/FWNHHMWRA" required="true()" type="select1"/>
+      <bind nodeset="/FWNewHH/woman" relevant=" /FWNewHH/FWNHHMWRA ='1'"/>
+      <bind calculate=" /FWNewHH/FWGOBHHID " nodeset="/FWNewHH/woman/GOBHHID" type="string"/>
+      <bind calculate=" /FWNewHH/FWJIVHHID " nodeset="/FWNewHH/woman/JiVitAHHID" type="string"/>
+      <bind calculate=" /FWNewHH/FWNHREGDATE " nodeset="/FWNewHH/woman/REGDATE" type="string"/>
+      <bind constraint="regex(., '^[a-z A-Z]+$' )" jr:constraintMsg="jr:itext('/FWNewHH/woman/FWWOMFNAME:jr:constraintMsg')" nodeset="/FWNewHH/woman/FWWOMFNAME" required="true()" type="string"/>
+      <bind calculate="&quot;.&quot;" nodeset="/FWNewHH/woman/FWWOMLNAME" type="string"/>
+      <bind constraint="(( /FWNewHH/woman/FWBIRTHDATE )+4380) &lt;= today()" jr:constraintMsg="jr:itext('/FWNewHH/woman/FWBIRTHDATE:jr:constraintMsg')" nodeset="/FWNewHH/woman/FWBIRTHDATE" required="true()" type="date"/>
+      <bind calculate="&quot;2&quot;" nodeset="/FWNewHH/woman/FWGENDER" type="string"/>
+      <bind calculate="round((( /FWNewHH/today  -  /FWNewHH/woman/FWBIRTHDATE ) div 365.25),0)" nodeset="/FWNewHH/woman/FWWOMAGE" type="string"/>
+      <bind nodeset="/FWNewHH/woman/display_age" readonly="true()" relevant=" /FWNewHH/woman/FWBIRTHDATE  !=''" type="string"/>
+      <bind nodeset="/FWNewHH/woman/FWCWOMSTRMEN" required="true()" type="select1"/>
+      <bind nodeset="/FWNewHH/woman/FWCWOMSTER" relevant="selected( /FWNewHH/woman/FWCWOMSTRMEN , '1')" required="true()" type="select1"/>
+      <bind nodeset="/FWNewHH/woman/FWCWOMHUSLIV" relevant="selected( /FWNewHH/woman/FWCWOMSTRMEN , '1') and  /FWNewHH/woman/FWCWOMSTER ='0'" required="true()" type="select1"/>
+      <bind nodeset="/FWNewHH/woman/FWCWOMHUSALV" relevant="selected( /FWNewHH/woman/FWCWOMHUSLIV , '0') or selected( /FWNewHH/woman/FWCWOMHUSLIV , '9')" required="true()" type="select1"/>
+      <bind nodeset="/FWNewHH/woman/FWCWOMHUSSTR" relevant="selected( /FWNewHH/woman/FWCWOMHUSLIV , '1') or (selected( /FWNewHH/woman/FWCWOMHUSLIV , '9') and selected( /FWNewHH/woman/FWCWOMHUSALV , '1'))" required="true()" type="select1"/>
+      <bind calculate="if( /FWNewHH/woman/FWCWOMSTRMEN ='1' and  /FWNewHH/woman/FWCWOMSTER ='0' and  /FWNewHH/woman/FWCWOMHUSLIV ='1' and ( /FWNewHH/woman/FWCWOMHUSSTR ='0' or  /FWNewHH/woman/FWCWOMHUSSTR ='9'),1,0)" nodeset="/FWNewHH/woman/FWELIGIBLE" type="string"/>
+      <bind calculate="if( /FWNewHH/woman/FWELIGIBLE  = '1', '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA', '1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')" nodeset="/FWNewHH/woman/FWELIGIBLE2" type="string"/>
+      <bind nodeset="/FWNewHH/woman/eligible" relevant=" /FWNewHH/woman/FWELIGIBLE ='1'"/>
+      <bind nodeset="/FWNewHH/woman/eligible/FWWOMANYID" required="true()" type="select"/>
+      <bind constraint="regex(., '^(?!0{13})[0-9]{13}$') or regex(., '^(?!0{17})[0-9]{17}$')" jr:constraintMsg="jr:itext('/FWNewHH/woman/eligible/FWWOMNID:jr:constraintMsg')" nodeset="/FWNewHH/woman/eligible/FWWOMNID" relevant="selected( /FWNewHH/woman/eligible/FWWOMANYID ,'1')" required="true()" type="string"/>
+      <bind constraint=".= /FWNewHH/woman/eligible/FWWOMNID " jr:constraintMsg="jr:itext('/FWNewHH/woman/eligible/FWWOMRETYPENID:jr:constraintMsg')" nodeset="/FWNewHH/woman/eligible/FWWOMRETYPENID" relevant="selected( /FWNewHH/woman/eligible/FWWOMANYID ,'1')" required="true()" type="string"/>
+      <bind calculate=" /FWNewHH/woman/eligible/FWWOMRETYPENID " nodeset="/FWNewHH/woman/eligible/FWWOMRETYPENID_CONCEPT" type="string"/>
+      <bind constraint="regex(., '^(?!0{17})[0-9]{17}$')" jr:constraintMsg="jr:itext('/FWNewHH/woman/eligible/FWWOMBID:jr:constraintMsg')" nodeset="/FWNewHH/woman/eligible/FWWOMBID" relevant="selected( /FWNewHH/woman/eligible/FWWOMANYID ,'2')" required="true()" type="string"/>
+      <bind constraint=".= /FWNewHH/woman/eligible/FWWOMBID " jr:constraintMsg="jr:itext('/FWNewHH/woman/eligible/FWWOMRETYPEBID:jr:constraintMsg')" nodeset="/FWNewHH/woman/eligible/FWWOMRETYPEBID" relevant="selected( /FWNewHH/woman/eligible/FWWOMANYID ,'2')" required="true()" type="string"/>
+      <bind calculate=" /FWNewHH/woman/eligible/FWWOMRETYPEBID " nodeset="/FWNewHH/woman/eligible/FWWOMRETYPEBID_CONCEPT" type="string"/>
+      <bind constraint="regex(., '^[a-z A-Z]+$' )" jr:constraintMsg="jr:itext('/FWNewHH/woman/eligible/FWHUSNAME:jr:constraintMsg')" nodeset="/FWNewHH/woman/eligible/FWHUSNAME" required="true()" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Country " nodeset="/FWNewHH/woman/eligible/FWWOMCOUNTRY" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Division " nodeset="/FWNewHH/woman/eligible/FWWOMDIVISION" type="string"/>
+      <bind calculate=" /FWNewHH/existing_District " nodeset="/FWNewHH/woman/eligible/FWWOMDISTRICT" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Upazilla " nodeset="/FWNewHH/woman/eligible/FWWOMUPAZILLA" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Union " nodeset="/FWNewHH/woman/eligible/FWWOMUNION" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Ward " nodeset="/FWNewHH/woman/eligible/FWWOMWARD" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Subunit " nodeset="/FWNewHH/woman/eligible/FWWOMSUBUNIT" type="string"/>
+      <bind calculate=" /FWNewHH/existing_Mauzapara " nodeset="/FWNewHH/woman/eligible/FWWOMMAUZA_PARA" type="string"/>
+      <bind calculate=" /FWNewHH/FWGOBHHID " nodeset="/FWNewHH/woman/eligible/FWWOMGOBHHID" type="string"/>
+      <bind calculate=" /FWNewHH/FWNHHHGPS " nodeset="/FWNewHH/woman/eligible/FWWOMGPS" type="string"/>
+      <bind nodeset="/FWNewHH/woman/add_women" readonly="true()" type="string"/>
+      <bind calculate="if( /FWNewHH/FWNHHMWRA  = '1', sum( /FWNewHH/woman/FWELIGIBLE ), '0')" nodeset="/FWNewHH/ELCO" type="string"/>
+      <bind nodeset="/FWNewHH/current_formStatus" type="string"/>
+      <bind calculate="&quot;FWA&quot;" nodeset="/FWNewHH/user_type" type="string"/>
+      <bind nodeset="/FWNewHH/external_user_ID" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/FWNewHH/meta/instanceID" readonly="true()" type="string"/>
+      <bind calculate="'13317f30d2e64234ac528f2236487a61'" nodeset="/FWNewHH/formhub/uuid" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/FWNewHH/FWNHREGDATE">
+      <label ref="jr:itext('/FWNewHH/FWNHREGDATE:label')"/>
+      <hint ref="jr:itext('/FWNewHH/FWNHREGDATE:hint')"/>
+    </input>
+    <input appearance="numbers" ref="/FWNewHH/FWGOBHHID">
+      <label ref="jr:itext('/FWNewHH/FWGOBHHID:label')"/>
+      <hint ref="jr:itext('/FWNewHH/FWGOBHHID:hint')"/>
+    </input>
+    <input appearance="numbers" ref="/FWNewHH/FWJIVHHID">
+      <label ref="jr:itext('/FWNewHH/FWJIVHHID:label')"/>
+      <hint ref="jr:itext('/FWNewHH/FWJIVHHID:hint')"/>
+    </input>
+    <input ref="/FWNewHH/FWNHHHGPS">
+      <label ref="jr:itext('/FWNewHH/FWNHHHGPS:label')"/>
+      <hint>GPS coordinates can only be collected when outside.</hint>
+    </input>
+    <input ref="/FWNewHH/FWHOHFNAME">
+      <label ref="jr:itext('/FWNewHH/FWHOHFNAME:label')"/>
+    </input>
+    <select1 ref="/FWNewHH/FWHOHGENDER">
+      <label ref="jr:itext('/FWNewHH/FWHOHGENDER:label')"/>
+      <item>
+        <label ref="jr:itext('/FWNewHH/FWHOHGENDER/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/FWNewHH/FWHOHGENDER/2:label')"/>
+        <value>2</value>
+      </item>
+    </select1>
+    <input appearance="numbers" ref="/FWNewHH/FWNHHMBRNUM">
+      <label ref="jr:itext('/FWNewHH/FWNHHMBRNUM:label')"/>
+      <hint ref="jr:itext('/FWNewHH/FWNHHMBRNUM:hint')"/>
+    </input>
+    <select1 ref="/FWNewHH/FWNHHMWRA">
+      <label ref="jr:itext('/FWNewHH/FWNHHMWRA:label')"/>
+      <item>
+        <label ref="jr:itext('/FWNewHH/FWNHHMWRA/0:label')"/>
+        <value>0</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/FWNewHH/FWNHHMWRA/1:label')"/>
+        <value>1</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/FWNewHH/FWNHHMWRA/9:label')"/>
+        <value>9</value>
+      </item>
+    </select1>
+    <group ref="/FWNewHH/woman">
+      <label ref="jr:itext('/FWNewHH/woman:label')"/>
+      <repeat nodeset="/FWNewHH/woman">
+        <input ref="/FWNewHH/woman/FWWOMFNAME">
+          <label ref="jr:itext('/FWNewHH/woman/FWWOMFNAME:label')"/>
+          <hint ref="jr:itext('/FWNewHH/woman/FWWOMFNAME:hint')"/>
+        </input>
+        <input ref="/FWNewHH/woman/FWBIRTHDATE">
+          <label ref="jr:itext('/FWNewHH/woman/FWBIRTHDATE:label')"/>
+          <hint ref="jr:itext('/FWNewHH/woman/FWBIRTHDATE:hint')"/>
+        </input>
+        <input ref="/FWNewHH/woman/display_age">
+          <label ref="jr:itext('/FWNewHH/woman/display_age:label')"/>
+        </input>
+        <select1 ref="/FWNewHH/woman/FWCWOMSTRMEN">
+          <label ref="jr:itext('/FWNewHH/woman/FWCWOMSTRMEN:label')"/>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMSTRMEN/0:label')"/>
+            <value>0</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMSTRMEN/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMSTRMEN/9:label')"/>
+            <value>9</value>
+          </item>
+        </select1>
+        <select1 ref="/FWNewHH/woman/FWCWOMSTER">
+          <label ref="jr:itext('/FWNewHH/woman/FWCWOMSTER:label')"/>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMSTER/0:label')"/>
+            <value>0</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMSTER/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMSTER/9:label')"/>
+            <value>9</value>
+          </item>
+        </select1>
+        <select1 ref="/FWNewHH/woman/FWCWOMHUSLIV">
+          <label ref="jr:itext('/FWNewHH/woman/FWCWOMHUSLIV:label')"/>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMHUSLIV/0:label')"/>
+            <value>0</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMHUSLIV/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMHUSLIV/9:label')"/>
+            <value>9</value>
+          </item>
+        </select1>
+        <select1 ref="/FWNewHH/woman/FWCWOMHUSALV">
+          <label ref="jr:itext('/FWNewHH/woman/FWCWOMHUSALV:label')"/>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMHUSALV/0:label')"/>
+            <value>0</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMHUSALV/1:label')"/>
+            <value>1</value>
+          </item>
+        </select1>
+        <select1 ref="/FWNewHH/woman/FWCWOMHUSSTR">
+          <label ref="jr:itext('/FWNewHH/woman/FWCWOMHUSSTR:label')"/>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMHUSSTR/0:label')"/>
+            <value>0</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMHUSSTR/1:label')"/>
+            <value>1</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/FWNewHH/woman/FWCWOMHUSSTR/9:label')"/>
+            <value>9</value>
+          </item>
+        </select1>
+        <group ref="/FWNewHH/woman/eligible">
+          <select ref="/FWNewHH/woman/eligible/FWWOMANYID">
+            <label ref="jr:itext('/FWNewHH/woman/eligible/FWWOMANYID:label')"/>
+            <hint ref="jr:itext('/FWNewHH/woman/eligible/FWWOMANYID:hint')"/>
+            <item>
+              <label ref="jr:itext('/FWNewHH/woman/eligible/FWWOMANYID/1:label')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/FWNewHH/woman/eligible/FWWOMANYID/2:label')"/>
+              <value>2</value>
+            </item>
+          </select>
+          <input appearance="numbers" ref="/FWNewHH/woman/eligible/FWWOMNID">
+            <label ref="jr:itext('/FWNewHH/woman/eligible/FWWOMNID:label')"/>
+            <hint ref="jr:itext('/FWNewHH/woman/eligible/FWWOMNID:hint')"/>
+          </input>
+          <input appearance="numbers" ref="/FWNewHH/woman/eligible/FWWOMRETYPENID">
+            <label ref="jr:itext('/FWNewHH/woman/eligible/FWWOMRETYPENID:label')"/>
+            <hint ref="jr:itext('/FWNewHH/woman/eligible/FWWOMRETYPENID:hint')"/>
+          </input>
+          <input appearance="numbers" ref="/FWNewHH/woman/eligible/FWWOMBID">
+            <label ref="jr:itext('/FWNewHH/woman/eligible/FWWOMBID:label')"/>
+            <hint ref="jr:itext('/FWNewHH/woman/eligible/FWWOMBID:hint')"/>
+          </input>
+          <input appearance="numbers" ref="/FWNewHH/woman/eligible/FWWOMRETYPEBID">
+            <label ref="jr:itext('/FWNewHH/woman/eligible/FWWOMRETYPEBID:label')"/>
+            <hint ref="jr:itext('/FWNewHH/woman/eligible/FWWOMRETYPEBID:hint')"/>
+          </input>
+          <input ref="/FWNewHH/woman/eligible/FWHUSNAME">
+            <label ref="jr:itext('/FWNewHH/woman/eligible/FWHUSNAME:label')"/>
+            <hint ref="jr:itext('/FWNewHH/woman/eligible/FWHUSNAME:hint')"/>
+          </input>
+        </group>
+        <input ref="/FWNewHH/woman/add_women">
+          <label ref="jr:itext('/FWNewHH/woman/add_women:label')"/>
+        </input>
+      </repeat>
+    </group>
+  </h:body>
+</h:html>

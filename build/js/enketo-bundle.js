@@ -37,18 +37,10 @@ if ( getURLParameter( 'xform' ) !== 'null' ) {
     initializeForm();
 }
 
+
 window.loadDraft = function(xmlDataString){
 	$( '.guidance' ).remove();
     instanceStr = xmlDataString;
-  //  Android.log(xmlDataString);
-    form.resetView();
-    //form.init();
-    initializeForm();
-}
-window.loadDraft2 = function(xmlDataString){
-	$( '.guidance' ).remove();
-    instanceStr = xmlDataString;
-   // Android.log(xmlDataString);
     form.resetView();
     //form.init();
     form = new Form( 'form.or:eq(0)', {
